@@ -156,7 +156,7 @@ def add_header(slide, title_text, category_text='IBM DATA SCIENCE CAPSTONE PROJE
     p1.font.color.rgb = C_WHITE
 
 def add_footer(slide, github_subpath=''):
-    repo_url = 'https://github.com/your-username/SpaceX-Falcon9-Landing-Prediction'
+    repo_url = 'https://github.com/sondthe200221/SpaceX-Falcon9-Landing-Prediction'
     if github_subpath:
         full_url = f'{repo_url}/blob/main/{github_subpath}'
     else:
@@ -239,7 +239,7 @@ p.font.color.rgb = C_WHITE
 p.space_before = Pt(40)
 
 p = tf1.add_paragraph()
-p.text = 'Project GitHub URL: https://github.com/your-username/SpaceX-Falcon9-Landing-Prediction'
+p.text = 'Project GitHub URL: https://github.com/sondthe200221/SpaceX-Falcon9-Landing-Prediction'
 p.font.size = Pt(13)
 p.font.bold = True
 p.font.color.rgb = C_PRIMARY
